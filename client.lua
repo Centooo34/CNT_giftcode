@@ -2,7 +2,7 @@ local codeused = 0
 
 RegisterCommand("giftcode", function()  -- edit command if necesary
     local input = lib.inputDialog("Gift Code", {
-        {type = "input", label = "Enter the gift code", placeholder = "Here"} --  edit this if you want
+        {type = "input", label = Config.Menu.Input, placeholder = Config.Menu.Placeholder} --  edit this if you want
     })
 
     if input and input[1] then
