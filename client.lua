@@ -1,6 +1,6 @@
 local codeused = 0
 
-RegisterCommand("giftcode", function()  -- edit command if necesary
+RegisterCommand(Config.Command, function()  -- edit command if necesary
     local input = lib.inputDialog("Gift Code", {
         {type = "input", label = Config.Menu.Input, placeholder = Config.Menu.Placeholder} --  edit this if you want
     })
