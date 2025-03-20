@@ -13,7 +13,7 @@ AddEventHandler("giftcode:redeem", function(code)
     
 
     if xPlayer.get("usedGiftCode") then
-        TriggerClientEvent('ox_lib:notify', source, {type = 'error', description = "You have already redeemed a gift code."})
+        TriggerClientEvent('ox_lib:notify', source, {type = 'error', description = "You have already redeemed a gift code."})  -- edit this message if u want
         return
     end
 
