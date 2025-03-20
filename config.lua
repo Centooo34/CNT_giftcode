@@ -10,6 +10,8 @@ Config.Notify = {
     Failure = "Chybný kód! Zkuste to znovu." -- fail notify
 }
 
+Config.Command = "giftcode"
+
 Config.Menu = {
     Input = "Enter your code here",-- text in menu input
     Placeholder = "Here" -- placeholder text
