@@ -25,6 +25,7 @@ AddEventHandler("giftcode:redeem", function(code)
 end)
 
 
+-- version check
 Citizen.CreateThread(function()
     local resourceName = GetCurrentResourceName()
     local currentVersion = GetResourceMetadata(resourceName, "version")
