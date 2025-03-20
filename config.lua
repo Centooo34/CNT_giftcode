@@ -12,4 +12,5 @@ Config.Notify = {
 
 Config.Menu = {
     Input = "Enter your code here",-- text in menu input
+    Placeholder = "Here" -- placeholder text
 }
