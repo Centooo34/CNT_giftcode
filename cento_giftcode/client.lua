@@ -1,8 +1,8 @@
 local codeused = 0
 
-RegisterCommand("giftcode", function()
+RegisterCommand("giftcode", function()  -- edit command if necesary
     local input = lib.inputDialog("Gift Code", {
-        {type = "input", label = "Enter the gift code", placeholder = "Here"}
+        {type = "input", label = "Enter the gift code", placeholder = "Here"} --  edit this if you want
     })
 
     if input and input[1] then
