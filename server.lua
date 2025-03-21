@@ -32,7 +32,7 @@ Citizen.CreateThread(function()
 
     PerformHttpRequest("https://raw.githubusercontent.com/Centooo34/cento_giftcode/main/version.txt", function(statusCode, newVersion, headers)
         if statusCode == 200 then
-            newVersion = newVersion:gsub("\n", "") -- Odstráni nové riadky
+            newVersion = newVersion:gsub("\n", "")
             if currentVersion ~= newVersion then
                 print("^1[WARNING] Your version " .. resourceName .. " (" .. currentVersion .. ") is old! Newest version is " .. newVersion .. ". Download newest version from https://github.com/Centooo34/cento_giftcode/releases.^0")
             else
